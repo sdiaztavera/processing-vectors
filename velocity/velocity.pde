@@ -1,6 +1,6 @@
 
 PVector position = new PVector(300, 300);
-PVector velocity = new PVector(-4, 3);
+PVector velocity;
 
 void setup () {
   size(600, 600);
@@ -19,7 +19,6 @@ void draw () {
 }
 
 void update () {
-  position.add(velocity);
 }
 
 void checkEdges () {
