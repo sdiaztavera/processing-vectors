@@ -1,8 +1,7 @@
 class Mover {
 
   PVector position;
-  PVector velocity;
-  PVector acceleration; 
+  PVector velocity; 
 
   Mover () {
     position = new PVector(0, 0);
